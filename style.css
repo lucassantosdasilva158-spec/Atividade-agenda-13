@@ -1,0 +1,70 @@
+
+
+/* Container organizando as três categorias */
+
+.container {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+     padding: 0 16px;
+     box-sizing: border-box;
+}
+
+/* Configuração geral das categorias */
+
+.filmes, .games, .musica {
+     flex: 1;
+     min-width: 0;
+     box-sizing: border-box;
+     font-size: 1.5em;
+     text-align: center;
+     color: white;
+}
+
+/* Cores das categorias */
+
+.filmes {
+     background: #0F172A;
+}
+
+.games {
+     background: #58111A;
+}
+
+.musica {
+     background: #0F2C1D;
+}
+
+/* Espaçamento entre as categorias e os conteúdos */
+
+.filmes h2,.games h2,.musica h2 {
+	 margin-top: 10px;
+     margin-bottom: 20px;
+}
+
+/* Organização dos títulos */
+
+.filmes h3,.games h3,.musica h3 {
+     font-size: 0.9em;
+     min-height: 1.5em;
+}
+
+/* Organização dos comentários */
+
+.filmes p,.games p,.musica p {
+     font-size: 0.7em;
+     line-height: 1.2;
+     min-height: 3.6em;
+     padding: 5px;
+}
+
+/* Configuração das imagens */
+
+.filmes img,.games img,.musica img {
+     width: 180px;
+     height: 220px;
+     object-fit: contain;
+     display: block;
+     margin: 10px auto;
+}
